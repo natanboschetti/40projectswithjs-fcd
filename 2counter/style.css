@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  background-color: #f5f5f5;
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+div.container-title > h1.title,
+span#numberValue,
+button.button {
+  font-size: 3.5rem;
+  color: #292929;
+}
+
+div.container-button {
+  display: flex;
+  gap: 1rem;
+}
+button.button {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  width: 200px;
+  background-color: #f5f5f5;
+}
