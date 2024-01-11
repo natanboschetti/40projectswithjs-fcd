@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div#box {
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+}
+
+div#color {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #000000ac;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button#changeColor {
+  color: white;
+  font-size: 1.3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-color: white;
+  background-color: #000000ac;
+  font-family: "Courier New", Courier, monospace;
+}
